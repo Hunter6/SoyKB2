@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C542583519EEE41100DA857A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C542583419EEE41100DA857A /* Foundation.framework */; };
+		C542583719EEE41100DA857A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C542583619EEE41100DA857A /* CoreGraphics.framework */; };
+		C542583919EEE41100DA857A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C542583819EEE41100DA857A /* UIKit.framework */; };
+		C542583F19EEE41100DA857A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C542583D19EEE41100DA857A /* InfoPlist.strings */; };
+		C542584119EEE41100DA857A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C542584019EEE41100DA857A /* main.m */; };
+		C542584519EEE41100DA857A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C542584419EEE41100DA857A /* AppDelegate.m */; };
+		C542584B19EEE41100DA857A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542584A19EEE41100DA857A /* ViewController.m */; };
+		C542584D19EEE41100DA857A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C542584C19EEE41100DA857A /* Images.xcassets */; };
+		C542585419EEE41100DA857A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C542585319EEE41100DA857A /* XCTest.framework */; };
+		C542585519EEE41100DA857A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C542583419EEE41100DA857A /* Foundation.framework */; };
+		C542585619EEE41100DA857A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C542583819EEE41100DA857A /* UIKit.framework */; };
+		C542585E19EEE41100DA857A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C542585C19EEE41100DA857A /* InfoPlist.strings */; };
+		C542586019EEE41100DA857A /* SoyKBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C542585F19EEE41100DA857A /* SoyKBTests.m */; };
+		C542586E19EEF3B500DA857A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542586D19EEF3B500DA857A /* HomeViewController.m */; };
+		C542587119EF03CD00DA857A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542587019EF03CD00DA857A /* RegisterViewController.m */; };
+		C542587D19EF60A900DA857A /* Gene.m in Sources */ = {isa = PBXBuildFile; fileRef = C542587C19EF60A900DA857A /* Gene.m */; };
+		C542587F19F005D600DA857A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C542587E19F005D600DA857A /* Main.storyboard */; };
+		C5A6C93519F971FB0057C305 /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C93419F971FB0057C305 /* ResultTableViewController.m */; };
+		C5A6C93819F9871B0057C305 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6C93719F9871B0057C305 /* ResultTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C542585719EEE41100DA857A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C542582919EEE41100DA857A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C542583019EEE41100DA857A;
+			remoteInfo = SoyKB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C542583119EEE41100DA857A /* SoyKB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoyKB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C542583419EEE41100DA857A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C542583619EEE41100DA857A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C542583819EEE41100DA857A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C542583C19EEE41100DA857A /* SoyKB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoyKB-Info.plist"; sourceTree = "<group>"; };
+		C542583E19EEE41100DA857A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C542584019EEE41100DA857A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C542584219EEE41100DA857A /* SoyKB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoyKB-Prefix.pch"; sourceTree = "<group>"; };
+		C542584319EEE41100DA857A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C542584419EEE41100DA857A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C542584919EEE41100DA857A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C542584A19EEE41100DA857A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C542584C19EEE41100DA857A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C542585219EEE41100DA857A /* SoyKBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyKBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C542585319EEE41100DA857A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C542585B19EEE41100DA857A /* SoyKBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoyKBTests-Info.plist"; sourceTree = "<group>"; };
+		C542585D19EEE41100DA857A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C542585F19EEE41100DA857A /* SoyKBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoyKBTests.m; sourceTree = "<group>"; };
+		C542586C19EEF3B500DA857A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C542586D19EEF3B500DA857A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C542586F19EF03CD00DA857A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C542587019EF03CD00DA857A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C542587B19EF60A900DA857A /* Gene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gene.h; sourceTree = "<group>"; };
+		C542587C19EF60A900DA857A /* Gene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gene.m; sourceTree = "<group>"; };
+		C542587E19F005D600DA857A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Base.Iproj/Main.storyboard; sourceTree = "<group>"; };
+		C5A6C93319F971FB0057C305 /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		C5A6C93419F971FB0057C305 /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
+		C5A6C93619F9871B0057C305 /* ResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewCell.h; sourceTree = "<group>"; };
+		C5A6C93719F9871B0057C305 /* ResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C542582E19EEE41100DA857A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542583719EEE41100DA857A /* CoreGraphics.framework in Frameworks */,
+				C542583919EEE41100DA857A /* UIKit.framework in Frameworks */,
+				C542583519EEE41100DA857A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C542584F19EEE41100DA857A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542585419EEE41100DA857A /* XCTest.framework in Frameworks */,
+				C542585619EEE41100DA857A /* UIKit.framework in Frameworks */,
+				C542585519EEE41100DA857A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C542582819EEE41100DA857A = {
+			isa = PBXGroup;
+			children = (
+				C542583A19EEE41100DA857A /* SoyKB */,
+				C542583319EEE41100DA857A /* Frameworks */,
+				C542583219EEE41100DA857A /* Products */,
+				C542585919EEE41100DA857A /* SoyKBTests */,
+			);
+			sourceTree = "<group>";
+		};
+		C542583219EEE41100DA857A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C542583119EEE41100DA857A /* SoyKB.app */,
+				C542585219EEE41100DA857A /* SoyKBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C542583319EEE41100DA857A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C542583419EEE41100DA857A /* Foundation.framework */,
+				C542583619EEE41100DA857A /* CoreGraphics.framework */,
+				C542583819EEE41100DA857A /* UIKit.framework */,
+				C542585319EEE41100DA857A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C542583A19EEE41100DA857A /* SoyKB */ = {
+			isa = PBXGroup;
+			children = (
+				C542584319EEE41100DA857A /* AppDelegate.h */,
+				C542584419EEE41100DA857A /* AppDelegate.m */,
+				C542584919EEE41100DA857A /* ViewController.h */,
+				C542584A19EEE41100DA857A /* ViewController.m */,
+				C542587E19F005D600DA857A /* Main.storyboard */,
+				C542584C19EEE41100DA857A /* Images.xcassets */,
+				C542583B19EEE41100DA857A /* Supporting Files */,
+				C542586C19EEF3B500DA857A /* HomeViewController.h */,
+				C542586D19EEF3B500DA857A /* HomeViewController.m */,
+				C542586F19EF03CD00DA857A /* RegisterViewController.h */,
+				C542587019EF03CD00DA857A /* RegisterViewController.m */,
+				C542587B19EF60A900DA857A /* Gene.h */,
+				C542587C19EF60A900DA857A /* Gene.m */,
+				C5A6C93319F971FB0057C305 /* ResultTableViewController.h */,
+				C5A6C93419F971FB0057C305 /* ResultTableViewController.m */,
+				C5A6C93619F9871B0057C305 /* ResultTableViewCell.h */,
+				C5A6C93719F9871B0057C305 /* ResultTableViewCell.m */,
+			);
+			path = SoyKB;
+			sourceTree = "<group>";
+		};
+		C542583B19EEE41100DA857A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C542583C19EEE41100DA857A /* SoyKB-Info.plist */,
+				C542583D19EEE41100DA857A /* InfoPlist.strings */,
+				C542584019EEE41100DA857A /* main.m */,
+				C542584219EEE41100DA857A /* SoyKB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C542585919EEE41100DA857A /* SoyKBTests */ = {
+			isa = PBXGroup;
+			children = (
+				C542585F19EEE41100DA857A /* SoyKBTests.m */,
+				C542585A19EEE41100DA857A /* Supporting Files */,
+			);
+			path = SoyKBTests;
+			sourceTree = "<group>";
+		};
+		C542585A19EEE41100DA857A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C542585B19EEE41100DA857A /* SoyKBTests-Info.plist */,
+				C542585C19EEE41100DA857A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C542583019EEE41100DA857A /* SoyKB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C542586319EEE41100DA857A /* Build configuration list for PBXNativeTarget "SoyKB" */;
+			buildPhases = (
+				C542582D19EEE41100DA857A /* Sources */,
+				C542582E19EEE41100DA857A /* Frameworks */,
+				C542582F19EEE41100DA857A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoyKB;
+			productName = SoyKB;
+			productReference = C542583119EEE41100DA857A /* SoyKB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C542585119EEE41100DA857A /* SoyKBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C542586619EEE41100DA857A /* Build configuration list for PBXNativeTarget "SoyKBTests" */;
+			buildPhases = (
+				C542584E19EEE41100DA857A /* Sources */,
+				C542584F19EEE41100DA857A /* Frameworks */,
+				C542585019EEE41100DA857A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C542585819EEE41100DA857A /* PBXTargetDependency */,
+			);
+			name = SoyKBTests;
+			productName = SoyKBTests;
+			productReference = C542585219EEE41100DA857A /* SoyKBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C542582919EEE41100DA857A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SoyKBDevelopment;
+				TargetAttributes = {
+					C542585119EEE41100DA857A = {
+						TestTargetID = C542583019EEE41100DA857A;
+					};
+				};
+			};
+			buildConfigurationList = C542582C19EEE41100DA857A /* Build configuration list for PBXProject "SoyKB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C542582819EEE41100DA857A;
+			productRefGroup = C542583219EEE41100DA857A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C542583019EEE41100DA857A /* SoyKB */,
+				C542585119EEE41100DA857A /* SoyKBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C542582F19EEE41100DA857A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542587F19F005D600DA857A /* Main.storyboard in Resources */,
+				C542584D19EEE41100DA857A /* Images.xcassets in Resources */,
+				C542583F19EEE41100DA857A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C542585019EEE41100DA857A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542585E19EEE41100DA857A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C542582D19EEE41100DA857A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542587D19EF60A900DA857A /* Gene.m in Sources */,
+				C542587119EF03CD00DA857A /* RegisterViewController.m in Sources */,
+				C5A6C93819F9871B0057C305 /* ResultTableViewCell.m in Sources */,
+				C542584B19EEE41100DA857A /* ViewController.m in Sources */,
+				C5A6C93519F971FB0057C305 /* ResultTableViewController.m in Sources */,
+				C542584519EEE41100DA857A /* AppDelegate.m in Sources */,
+				C542584119EEE41100DA857A /* main.m in Sources */,
+				C542586E19EEF3B500DA857A /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C542584E19EEE41100DA857A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542586019EEE41100DA857A /* SoyKBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C542585819EEE41100DA857A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C542583019EEE41100DA857A /* SoyKB */;
+			targetProxy = C542585719EEE41100DA857A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C542583D19EEE41100DA857A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C542583E19EEE41100DA857A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C542585C19EEE41100DA857A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C542585D19EEE41100DA857A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C542586119EEE41100DA857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C542586219EEE41100DA857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C542586419EEE41100DA857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB/SoyKB-Prefix.pch";
+				INFOPLIST_FILE = "SoyKB/SoyKB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C542586519EEE41100DA857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB/SoyKB-Prefix.pch";
+				INFOPLIST_FILE = "SoyKB/SoyKB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C542586719EEE41100DA857A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoyKB.app/SoyKB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB/SoyKB-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoyKBTests/SoyKBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C542586819EEE41100DA857A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoyKB.app/SoyKB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoyKB/SoyKB-Prefix.pch";
+				INFOPLIST_FILE = "SoyKBTests/SoyKBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C542582C19EEE41100DA857A /* Build configuration list for PBXProject "SoyKB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C542586119EEE41100DA857A /* Debug */,
+				C542586219EEE41100DA857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C542586319EEE41100DA857A /* Build configuration list for PBXNativeTarget "SoyKB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C542586419EEE41100DA857A /* Debug */,
+				C542586519EEE41100DA857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C542586619EEE41100DA857A /* Build configuration list for PBXNativeTarget "SoyKBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C542586719EEE41100DA857A /* Debug */,
+				C542586819EEE41100DA857A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C542582919EEE41100DA857A /* Project object */;
+}
